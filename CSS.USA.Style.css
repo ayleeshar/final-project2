@@ -1,0 +1,86 @@
+.dropdown-item{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#Contact{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1{
+    color: red;
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    font-size: 100px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px; 
+}
+
+button{
+    background: red !important;
+    color: beige !important;
+    border: red !important;
+
+}
+
+#Book{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important; 
+    transition: 0.5s;
+}
+#Book:hover{
+    transform: scale(1.1);
+}
+
+.newYork{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+} 
+
+#navbar {
+    position: fixed;
+    z-index: 5000;
+    width: 100%;
+    }
+    
+    .dropdown-item{
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .nav-item{
+        padding: 10px 25%;
+    }
+    
+    .navbar-brand{
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    .logo-image{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: -6px;
+    }
+    

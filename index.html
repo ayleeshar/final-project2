@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemmens & White Travel Agents</title>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <script src='main.js'></script>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class = "nav-item">
+            <a class="navbar-brand" href="index.html">
+              <div class="logo-image">
+                <img src="hw logo2.jpg" class="img-fluid">
+              </div>
+            </a>
+
+          </li>  
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Places
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item">Bondi - Australia</a>
+              <a class="dropdown-item" href="#">Santorini - Greece</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="Bali.index.html">Bali</a>
+              <a class="dropdown-item" href= "USA.index.html"> USA- New York</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Contact.index.html"> Book Now! </a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav> 
+
+
+<div id='johnIndicator'></div>
+<div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+</div>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <div class='greybox1'>
+              <p>Adventure awaits</p>
+          </div>
+        <img src="baliHomepageImage.jpeg" class="d-block w-100" alt="Bali">
+      </div>
+      <div class="carousel-item">
+          <div class= 'greybox1'>
+              <p>Work hard, Play harder</p>
+          </div>
+        <img src="bondiHomepageImage.jpeg" class="d-block w-100" alt="Bondi">
+      </div>
+      <div class="carousel-item">
+        <div class= 'greybox1'>
+            <p>Exciting experiences</p>
+        </div>
+        <img src="newyorkHomepageImage.jpeg" class="d-block w-100" alt="NYC">
+      </div>
+      <div class="carousel-item">
+        <div class= 'greybox1'>
+            <p>Breathtaking views</p>
+        </div>
+        <img src="santoriniHomepageImage.jpeg" class="d-block w-100" alt="NYC">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+<main>
+    <section class='bali'>
+      <div class='container1'>
+        <div class='flexitem1'>
+          <h1> The land of the gods</h1>
+          <h2> Bali.</h2>
+          <p> Beyond the lucious terraced rice fields and scenic volcanos lives a thiriving village of culture, serenity and peace.</p>
+          <div class=buttonsClass>
+            <button class='ghost-button'> <a href='bali.index.html'> Find out more</a></button>
+            <button class='block-button'> <a href= "Contact.index.html"> Book Now! </a></button></button>
+          </div>
+        </div>
+        <div class='flexitem2'>
+          <img class='baliimage' src='baliphoto.jpg'>
+        </div>
+      </div>
+    </section>
+
+    <section class='nyc'>
+      <div class='container2'>
+        <div class='flexitem3'>
+          <img class='nycimage' src ='newyork5.jpg'>
+        </div>
+        <div class='flexitem4'>
+          <h1>A concrete jungle where dreams are made</h1>
+          <h2>New York City</h2>
+          <p> Take a ride through one of the worlds most diverse urban jungle in a yellow taxi </p>
+          <div class=buttonsClass>
+            <button class='ghost-button'> <a href='usa.index.html'> Find out more</a>
+            <button class='block-button'> <a href= "Contact.index.html"> Book Now! </a></button></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class='bondi'>
+      <div class='container3'>
+        <div class='flexitem5'>
+          <h1> Infamous golden sands</h1>
+          <h2> Bondi </h2>
+          <p> Beachside suburb by day, beachside bars by night</p>
+          <div class=buttonsClass>
+            <button class='ghost-button'> Find out more</button>
+            <button class='block-button'> <a href= "Contact.index.html"> Book Now! </a></button></button>
+          </div>
+          </div>
+          <div class='flexitem6'>
+          <img class='bondiimage' src='bondiphotonew.jpg'>
+        </div>
+      </div>
+    </section>
+
+    <section class='santorini'>
+      <div class='container4'>
+        <div class='flexitem7'>
+          <img class='santoriniImage' src='santan.jpg'>
+        </div>
+        <div class='flexitem8'>
+          <h1>The most romantic island in Europe</h1>
+          <h2> Santorini </h2>
+          <p> A world where traditional meets contemporary</p>
+          <div class=buttonsClass>
+            <button class='ghost-button'> Find out more</button>
+            <button class='block-button'> <a href= "Contact.index.html"> Book Now! </a></button></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+</main>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+.dropdown-item{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+#Contact{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+h1{
+    color: red;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#button{
+    background: red !important;
+    color: beige !important;
+    border: red !important;
+}
+
+.btn btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#navbar {
+    position: fixed;
+    z-index: 5000;
+    width: 100%;
+    }
+    
+    .dropdown-item{
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .nav-item{
+        padding: 10px 25%;
+    }
+    
+    .navbar-brand{
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    .logo-image{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: -6px;
+    }
+    
